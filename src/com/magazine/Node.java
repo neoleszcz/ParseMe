@@ -24,16 +24,16 @@ public class Node extends Element implements IElement {
 
 
 
-    private int level;
+    private int lineNumber;
     private List<Attribute> attributeList;
     private List<Node> nodeList;
 
     public int getLevel() {
-        return level;
+        return lineNumber;
     }
 
     public void setLevel(int level) {
-        this.level = level;
+        this.lineNumber = level;
     }
 
     public List<Attribute> getAttributeList() {

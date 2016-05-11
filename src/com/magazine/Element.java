@@ -6,6 +6,7 @@ package com.magazine;
 public abstract class Element {
     private String name;
     private String value;
+    private boolean hasChild = true;
 
     public String getValue() {
         return value;
@@ -24,4 +25,15 @@ public abstract class Element {
         this.name = name;
 
     }
+
+    public boolean isHasChild() {
+        return hasChild;
+    }
+
+    public void setHasChild(boolean hasChild) {
+        this.hasChild = hasChild;
+    }
+
+
+
 }
